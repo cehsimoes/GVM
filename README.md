@@ -1,7 +1,7 @@
 # GVM e o Video-Mapa
 ## Resumo: O GVM foi criado para monitorar e inventariar placas de sinalização vertical viária de trânsito.
 ### História do Legado:
-<p>O protótipo do Sistema GVM foi criado para monitorar e inventariar placas de sinalização vertical viária de trânsito. </p>
+<p>O protótipo do Sistema _GVM_ foi criado para monitorar e inventariar placas de sinalização vertical viária de trânsito. </p>
 <p>Este sistema foi desenvolvido e financiado  pela FAPESP, com Bolsa TT5, Processo 2013/14956-9, no período de 01/09/2013 a 30/06/2014,  durante parte do meu doutorado no laboratório LTG do Departamento de Transportes da Escola Politécnica da USP. </p>
 <p>Todo esse experimento pode ser lido no capitulo 7 de minha a tese que  pode ser acessada em  https://teses.usp.br/teses/disponiveis/3/3138/tde-16062016-114254/publico/CarlosEnriqueCorrigida.pdf onde diversas duvidas podem ser sanadas.</p>
 <p>Este sistema utilizou uma interface de usuário por mim desenvolvida e denominada de **Video-Mapa**. </p>
