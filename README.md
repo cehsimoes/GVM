@@ -1,24 +1,23 @@
-# GVM e o Video-Mapa
-## Resumo: O GVM foi criado para monitorar e inventariar placas de sinalização vertical viária de trânsito.
-### História do Legado:
-<p>O protótipo do Sistema _GVM_ foi criado para monitorar e inventariar placas de sinalização vertical viária de trânsito. </p>
-<p>Este sistema foi desenvolvido e financiado  pela FAPESP, com Bolsa TT5, Processo 2013/14956-9, no período de 01/09/2013 a 30/06/2014,  durante parte do meu doutorado no laboratório LTG do Departamento de Transportes da Escola Politécnica da USP. </p>
-<p>Todo esse experimento pode ser lido no capitulo 7 de minha a tese que  pode ser acessada em  https://teses.usp.br/teses/disponiveis/3/3138/tde-16062016-114254/publico/CarlosEnriqueCorrigida.pdf onde diversas duvidas podem ser sanadas.</p>
-<p>Este sistema utilizou uma interface de usuário por mim desenvolvida e denominada de **Video-Mapa**. </p>
-<p>O Video-Mapa que pode ser utilizada como a interface de um Sistema de Mapeamento Móvel de baixo custo e as diversas versões podem reutilizadas em outros projetos caso exista o interesse dado que é Open-Source. </p>
-<p>O Video-Mapa foi criado  em 2009 utilizando  MXML, ActionScript, Servidor de Video da Adobe e Google Maps API para ActionScript no projeto GeoRTA. </p>
-<p>O Video-Mapa, vem sendo refatorado e versionado desde então. </p>
-<p>Foi depois atualizado para HTML5, CSS3, JavaScript, Jquery, Google Maps API. </p>
-<p>Depois para ficar Open-Source atualizei o código e utilizei Leaflet, substituindo o Google Maps API, e passei a utilizar as camadas OSM e Imagens da Esri disponibilizada gratuitamente. </p>
-### A grande motivação e desafio nessa época dos pesquisadores nessa época era desenvolver uma navegação não linear. Veja-se Harrower e Fabrikant.(2008) https://onlinelibrary.wiley.com/doi/10.1002/9780470987643.ch4. 
-<p>Desenvolvi então em 2009, utilizando programação orientada a eventos, um algoritmo para sincronizar mapa com video e video com mapa. </p>
-<p>O avanço ou retrocesso do vídeo pode ser feito tanto no dial do vídeo como capturando e arrastando o ícone de localização do sistema móvel (carro) na rota do mapa. </p>
-<p>Recentemente, 2025, no VizLab da Unisinos, utilizei nesta ultima versão uma base criada e treinada de placas de trânsito brasileiras por pesquisador da UFU, disponibilizada no site da Roboflow. </p>
-<p>Usei em visão computacional, a técnica de rede neural convolucional, especificamente o Yolo8, para reconhecer e identificar automaticamente as placas de trânsito seguindo o padrão CONTRAN. </p>
-<p>Esta era uma funcionalidade importante que faltava. </p>
-<p>Com isso pode-se obter todos os dados necessários para o monitoramento e inventario placas de sinalização vertical viária de trânsito está automatizado. </p>
-<p>Basta fazer o levantamento em campo, com os sensores apropriados e processar no escritório, atualizar em uma base de dados de tempos em tempos. </p>
-<p>Com certeza, concessionárias e departamentos de trânsito devem ter interesse em uma aplicação desse tipo, por segurança viária significa mitigação de acidentes e mortes no trânsito.</p>
+# GVM and the Video-Map
+## Summary: The GVM was created to monitor and inventory traffic signs.
+### Legacy History:
+<p>The prototype of the _GVM_ System was created to monitor and inventory traffic signs.</p>
+<p>This system was developed and funded by FAPESP, with Grant TT5, Process 2013/14956-9, from September 1, 2013, to June 30, 2014, during part of my doctoral studies at the LTG laboratory of the Department of Transportation of the Polytechnic School of the University of São Paulo. </p>
+<p>This entire experiment can be read in Chapter 7 of my thesis, which can be accessed at https://teses.usp.br/teses/disponiveis/3/3138/tde-16062016-114254/publico/CarlosEnriqueCorrigida.pdf, where several questions can be answered.</p>
+<p>This system used a user interface I developed and called **Video-Mapa**.</p>
+<p>Video-Mapa can be used as the interface for a low-cost Mobile Mapping System, and the various versions can be reused in other projects if interested, given that it is open-source.</p>
+<p>Video-Mapa was created in 2009 using MXML, ActionScript, Adobe Video Server, and Google Maps API for ActionScript in the GeoRTA project. </p>
+<p>Video-Mapa has been refactored and versioned since then.</p>
+<p>In 2009, Video-Map was developed using MXML, ActionScript, Adobe Video Server, and Google Maps API for ActionScript, aiming for a variety of use cases.</p>
+<p>It was later updated to HTML5, CSS3, JavaScript, JQuery, and the Google Maps API.</p>
+<p>Later, to make it open-source and cost-effective, I updated the code and used Leaflet, replacing the Google Maps API, and used the OSM layers and Esri images, which are freely available.</p>
+<p>Recently, in 2025, at the Unisinos VizLab, I used in this latest version a database of Brazilian traffic signs created and trained by a UFU researcher, available on the Roboflow website.</p>
+<p>I used the convolutional neural network technique in computer vision, specifically Yolo8, to automatically recognise and identify traffic signs following the CONTRAN standard. </p>
+<p>This was an important missing feature.</p>
+<p>With this, you can obtain all the data necessary for automated monitoring and inventory of traffic signs.</p>
+<p>Simply conduct a field survey with the appropriate sensors and process it in the office, updating it in a database periodically.</p>
+<p>Certainly, dealerships and traffic departments would be interested in an application like this, as road safety means mitigating traffic accidents and fatalities.</p>
+<p>As this is a constantly updated project, it can and should be updated and expanded with new existing UI/UX technologies.</p>
 
 
 
