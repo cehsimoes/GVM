@@ -12,7 +12,7 @@
 <p>It was later updated to HTML5, CSS3, JavaScript, JQuery, and the Google Maps API.</p>
 <p>Later, to make it open-source and cost-effective, I updated the code and used Leaflet, replacing the Google Maps API, and used the OSM layers and Esri images, which are freely available.</p>
 <p>Recently, in 2025, at the Unisinos VizLab (https://www.instagram.com/vizlab_unisinos/), I used in this latest version a dataset of Brazilian traffic signs created and trained, available for download on the [Roboflow website](https://universe.roboflow.com/projetos-abip9/brazilian-traffic-signs-hnifq).</p>
-<p>I used the convolutional neural network technique in computer vision, specifically Yolo8, to automatically recognise and identify traffic signs following the {CONTRAN Regulatory Vertical Signage] (https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/docs/copy_of___01___MBST_Vol._I___Sin._Vert._Regulamentacao_F.pdf)) </p>
+<p>I used the convolutional neural network technique in computer vision, specifically Yolo8, to automatically recognise and identify traffic signs following the {CONTRAN Regulatory Vertical Signage] (https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/docs/copy_of___01___MBST_Vol._I___Sin._Vert._Regulamentacao_F.pdf) </p>
 <p>This was an important missing feature.</p>
 <p>With this, you can obtain all the data necessary for automated monitoring and inventory of traffic signs.</p>
 <p>Simply conduct a field survey with the appropriate sensors and process it in the office, updating it in a database periodically.</p>
